@@ -1,0 +1,139 @@
+
+@import 'https://fonts.googleapis.com/css?family=Philosopher|Poiret+One';
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  font-family: 'Alegreya', serif;
+  transform: translate(-50%, -50%);
+  background-color: lightblue;
+
+}
+
+html {
+  align-content: center;
+  transition: background-color 2s;
+
+}
+
+p {
+  color: black;
+}
+
+
+#root{
+  width: 100%;
+  margin: 0 10%;
+}
+
+.QuoteMachineApp {
+  align-self: center;
+  height: 400px;
+  width: 1000px;
+  margin: 0 auto;
+  border: none;
+  text-align: center;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+#quote {
+  margin: 25px;
+  margin-top: 50px;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: x-large;
+}
+
+.fadeIn {
+  opacity: 0;
+  display: block;
+  animation: slidein cubic-bezier(0.68, -0.55, 0.265, 1.55) 2s ease-out forwards;
+}
+
+@keyframes slidein {
+  0% {
+    opacity: 0;
+    transform: translateY(-25px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+#name {
+  margin: 20px;
+  font-style: italic;
+  font-size: larger;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+#newquote {
+  margin: 20px;
+  position: fixed;
+  bottom: 50px;
+  left: 50%;
+  right: 50%;
+  border-radius: 10px;
+  height: 50px;
+  width: 200px;
+  font-weight: 500;
+  font-size: larger;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: black;
+}
+
+#quoteMachineBackground {
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
