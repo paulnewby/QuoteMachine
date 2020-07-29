@@ -1,8 +1,11 @@
+
 import React from 'react';
 import './App.css';
 import {connect} from 'react-redux';
 import PropTypes from 'prop-types';
 import {ActionCreators} from './QuoteMachineState';
+import {Button} from "@material-ui/core";
+import {Container} from "@material-ui/core";
 
 const paleBlue = {
   red : 146, 
@@ -52,28 +55,25 @@ class QuoteMachine extends React.Component {
 
     return ( 
       <body style={{backgroundColor: randomColor}}>
-      <div style={{ backgroundColor: randomColor}} className="QuoteMachineApp"
+      <Container fixed style={{ backgroundColor: randomColor}} className="QuoteMachineApp"
       id = 'wrapper'>
            <p id="quote">{this.props.quote}</p>
             <p id="name">
               -{this.props.name ? this.props.name : "Unknown"}-
             </p>
-        <div 
+        <Container fixed 
           className="fadeIn"
           key={Math.random()}
           style={{ color: randomColor }}
           >
-          </div>
-          <button
-            style={{ backgroundColor : `rgb(
-              255, 253, 208
-            )`}}
+          </Container>
+          <Button
             id="newquote"
             onClick={this.props.nextQuote}
             >
               New Quote
-            </button>
-        </div>
+            </Button>
+        </Container>
 
 </body>     
     );
