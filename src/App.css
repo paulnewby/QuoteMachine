@@ -1,5 +1,5 @@
 
-@import 'https://fonts.googleapis.com/css?family=Philosopher|Poiret+One';
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
 
 .App {
@@ -41,13 +41,14 @@
   }
 }
 body {
+  display: inline-block;
   margin: 0;
   height: 100%;
   width: 100%;
   position: absolute;
   left: 50%;
   top: 50%;
-  font-family: 'Alegreya', serif;
+  font-family: 'Ubuntu', sans-serif;
   transform: translate(-50%, -50%);
   background-color: lightblue;
 
@@ -70,21 +71,32 @@ p {
 }
 
 .QuoteMachineApp {
-
+  width:150px;
+  padding:40px 50px;
+  display:table;
+  position:relative;
   align-self: center;
-  border-radius: 25px;
-  height: 400px;
-  width: 1000px;
+  justify-content: center;
   margin: 0 auto;
-  border: none;
-  top: 50%;
+  margin-top: 20%;
+  margin-bottom: 80%;
   text-align: center;
   vertical-align: middle;
+  background-color: white;
   -webkit-transition: all 1s ease-in-out;
   -moz-transition: all 1s ease-in-out;
   -o-transition: all 1s ease-in-out;
   -ms-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
+  border-radius: 3px;
+  box-shadow: 
+  0 0 240px 120px #FFDBE9,  
+  0 0 400px 240px #F4C2C2, 
+  0 0 560px 360px #0ff; 
+  text-align:center;
+  font-weight:400;
+  font-size:1em;
+
 }
 
 #quote {
@@ -92,8 +104,10 @@ p {
   margin-top: 50px;
   top: 50%;
   text-align: center;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: x-large;
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-family: 'Ubuntu', sans-serif;
+
 }
 
 .fadeIn {
@@ -117,33 +131,41 @@ p {
   margin: 20px;
   font-style: italic;
   font-size: larger;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+  font-weight: 600;
+  text-align: right;
+  font-family: 'Ubuntu', sans-serif;
 }
 
-#newquote {
-  margin: 20px;
-  position: fixed;
-  bottom: 50px;
-  left: 50%;
-  align-self: center;
-  right: 50%;
-  top: 25%;
-  justify-self: center;
-  align-self: center;
+.buttons {
+  width: 450px;
+  height: 60px;
+  text-align: right;
+display: flex;
+}
+
+.button {
+  height:60px;
+  border:none;
+  border-radius:3px;
+  opacity:1;
+  position: relative;
   border-radius: 10px;
-  height: 50px;
-  width: 200px;
-  font-weight: 500;
-  font-size: larger;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  background-color: white;
-  color: black;
+  font-weight: 600;
+  text-align: right;
+  font-size: 1rem;
+  font-family: 'Ubuntu', sans-serif;
 }
 
-#quoteMachineBackground {
-  -webkit-transition: all 1s ease-in-out;
-  -moz-transition: all 1s ease-in-out;
-  -o-transition: all 1s ease-in-out;
-  -ms-transition: all 1s ease-in-out;
-  transition: all 1s ease-in-out;
-}
+.twitter-button {
+  height:60px;
+  width: 60px;
+  border:none;
+  border-radius:3px;
+  opacity:1;
+  position: relative;
+  border-radius: 10px;
+  font-weight: 600;
+  text-align: right;
+  font-size: 1rem;
+  font-family: 'Ubuntu', sans-serif;
+  }

@@ -6,6 +6,10 @@ import { createStore } from 'redux'
 import rootReducer from './QuoteMachineState'
 
 
+
+
+
+
 const store = createStore(rootReducer)
 
 class App extends React.Component {

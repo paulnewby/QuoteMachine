@@ -20,7 +20,7 @@ quote : `All opinions are not equal. Some are a very great deal more robust, sop
 name : "Douglas Adams"
 },
 {
-quote : `Science is not only compatible with spirituality, it is a profound source of spirituality`,
+quote : `Science is not only compatible with spirituality, it is a profound source of spirituality.`,
 name : "Carl Sagan"
 },
 {
@@ -214,7 +214,7 @@ quote  : "Religion is excellent stuff for keeping common people quiet.",
 author : "Napoleon Bonaparte"
 },
 {
-quote  : "Extraordinary claims require extraordinary evidence",
+quote  : "Extraordinary claims require extraordinary evidence.",
 author : "Carl Sagan "
 },
 {
@@ -230,7 +230,7 @@ quote  : "Death makes you popular. People who didn't even like you in life would
 author : "George Carlin"
 },
 {
-quote  : "A witty saying proves nothing",
+quote  : "A witty saying proves nothing.",
 author : "Voltaire"
 },
 {
@@ -288,10 +288,6 @@ name : "Sam Levenson`
 {
 quote : `A creative man is motivated by the desire to achieve, not by the desire to beat others.",
 name : "Ayn Rand`
-},
-{
-quote : `A creative man is motivated by the desire to achieve, not by the desire to beat others.",
-name : Ayn Rand`
 },
 {
 quote : "Expect problems and eat them for breakfast.",
