@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/QuoteMachine/static/css/main.d529f060.chunk.css",
+    "main.js": "/QuoteMachine/static/js/main.0bbc9da0.chunk.js",
+    "main.js.map": "/QuoteMachine/static/js/main.0bbc9da0.chunk.js.map",
+    "runtime-main.js": "/QuoteMachine/static/js/runtime-main.d464e597.js",
+    "runtime-main.js.map": "/QuoteMachine/static/js/runtime-main.d464e597.js.map",
+    "static/css/2.5be323c2.chunk.css": "/QuoteMachine/static/css/2.5be323c2.chunk.css",
+    "static/js/2.dd6a0c61.chunk.js": "/QuoteMachine/static/js/2.dd6a0c61.chunk.js",
+    "static/js/2.dd6a0c61.chunk.js.map": "/QuoteMachine/static/js/2.dd6a0c61.chunk.js.map",
+    "index.html": "/QuoteMachine/index.html",
+    "precache-manifest.a2f7e44f7395479c8f80ba5865547f40.js": "/QuoteMachine/precache-manifest.a2f7e44f7395479c8f80ba5865547f40.js",
+    "service-worker.js": "/QuoteMachine/service-worker.js",
+    "static/css/2.5be323c2.chunk.css.map": "/QuoteMachine/static/css/2.5be323c2.chunk.css.map",
+    "static/css/main.d529f060.chunk.css.map": "/QuoteMachine/static/css/main.d529f060.chunk.css.map",
+    "static/js/2.dd6a0c61.chunk.js.LICENSE.txt": "/QuoteMachine/static/js/2.dd6a0c61.chunk.js.LICENSE.txt",
+    "static/media/font-awesome.min.css": "/QuoteMachine/static/media/fontawesome-webfont.fee66e71.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d464e597.js",
+    "static/css/2.5be323c2.chunk.css",
+    "static/js/2.dd6a0c61.chunk.js",
+    "static/css/main.d529f060.chunk.css",
+    "static/js/main.0bbc9da0.chunk.js"
+  ]
+}
